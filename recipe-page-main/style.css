@@ -1,0 +1,855 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.small-container
+{
+    width: 650px;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #888888;
+}
+
+.omelette-box
+{
+    display: flex;
+    justify-content: center;
+   margin-top: 30px;
+}
+
+.omelette-img
+{
+    width: 560px;
+    border-radius: 10px;
+}
+
+.omelette-heading
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+    line-height: 30px;
+    white-space: nowrap;
+    font-family: "Young Serif", serif;
+    font-style: normal;
+    margin: 35px 0 0 45px;
+}
+
+.omelette-heading span{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+    line-height: 30px;
+    white-space: nowrap;
+    font-family: "Young Serif", serif;
+    font-style: normal;
+    margin: 25px 0 0 1px;
+    position: relative;
+    top: 1px;
+}
+
+.omelette-para
+{
+    width: 580px;
+    font-size: 14px;
+color: hsl(30, 10%, 34%);
+font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  margin: 20px 0 0 45px;
+  line-height: 20px;
+}
+
+ul
+{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Preparation-bigbox
+{
+display: flex;
+justify-content: center;
+}
+
+.Preparation-box
+{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  background-color: hsl(330, 100%, 98%);
+  width: 560px;
+  height: 210px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.Preparation-box h3{
+    margin: 30px 0 0 30px;
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+
+ul li
+{
+    margin: 20px 0 0 55px;
+    color: hsl(332, 51%, 32%);
+}
+
+.Preparation-box h6
+{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+    margin: -20px 0 0 75px;
+}
+
+.Preparation-box .Approximately
+{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    margin: -18px 0 0 120px;
+}
+
+.Preparation-box .minute
+{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    margin: -17px 0 0 170px;
+}
+
+
+.Preparation-box .minutes
+{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    margin: -17px 0 0 145px;
+}
+
+.Ingredients-box
+{
+    font-family: "Outfit", sans-serif;
+}
+
+.Ingredients-box h1
+{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 800;
+    margin: 40px 0 0 40px;
+    font-family: "Young Serif", serif;
+}
+
+.Ingredients-box ul li{
+    color: hsl(14, 45%, 36%);
+    margin-left: 65px;
+    
+}
+
+.Ingredients-box p{
+    margin: -15px  0 0 90px;
+    color: hsl(24, 5%, 18%);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.line{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 550px;
+    margin: 45px auto;
+}
+
+.instructions-box h1{
+    color:hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 800;
+    margin: -10px 0 0 50px;
+    font-family: "Young Serif", serif;
+}
+
+.instructions-box ul{
+    margin-top: 25px;
+}
+
+
+.instructions-box li
+{
+    list-style-type: decimal;
+    color:hsl(14, 45%, 36%);
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.instructions-box p{
+    font-size: 14px;
+    font-weight: 400;
+    color:hsl(30, 10%, 34%);
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+
+.instructions-box span{
+    font-size: 15px;
+    font-weight: 600;
+    color:hsl(30, 10%, 34%);
+   
+}
+
+ .line1{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 550px;
+    margin: 45px auto;
+ }
+
+ .Nutrition-box h1{
+    color:hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 800;
+    margin: -10px 0 0 50px;
+    font-family: "Young Serif", serif;
+ }
+
+ .Nutrition-box p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    margin: 20px 0 0 50px;
+ }
+
+ .Nutrition-table
+ {
+    margin: 20px 0 0 70px;
+    font-family: "Outfit", sans-serif;
+ }
+
+ .Nutrition-table .data{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+ }
+
+ .Nutrition-table .data1{
+    padding-left: 220px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+ }
+
+ .Nutrition-table .carbs{
+    padding-top: 25px;
+ }
+
+
+ .line2{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+    top: 55px;
+ }
+
+ .line3{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+ }
+
+ .line4{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+    top: 145px;
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 369px)
+ {
+    html, body
+    {
+overflow-x: hidden;
+    }
+
+
+        .omelette-img
+        {
+            width: 80%;
+            margin: -128px 0 0 10px;
+        }
+    
+        .omelette-heading
+        {
+    
+            margin-left: 135px;
+            font-size: 40px;
+            font-weight: 800;
+        }
+    
+        .omelette-heading span{
+            position: relative;
+            top: 55px;
+            right: 295px;
+            font-size: 40px;
+        }
+    
+        .omelette-para
+        {
+            font-size: 20px;
+            width: 55%;
+            margin: 90px 0 0 135px;
+            line-height: 40px;
+        }
+    
+        .Preparation-box h3{
+            margin-left: 145px;
+            font-size: 30px;
+        }
+    
+        .Preparation-box ul{
+            margin-left: 115px;
+        }
+    
+        .Preparation-box h6{
+            font-size: 20px;
+            margin-left: 60px;
+        }
+    
+        .Preparation-box .Approximately{
+            font-size: 17px;
+            width: 50%;
+            margin: -20px 0 0 120px;
+        }
+    
+        .Preparation-box .minute
+        {
+            font-size: 17px;
+            width: 50%;
+            margin: -20px 0 0 183px;
+        }
+    
+        .Preparation-box .minutes
+        {
+            font-size: 17px;
+            width: 50%;
+            margin: -20px 0 0 150px;
+        }
+    
+        .Ingredients-box h1{
+            margin-left: 135px;
+            font-size: 40px;
+        }
+    
+        .Ingredients-box ul{
+            margin-left: 100px;
+        }
+    
+        .Ingredients-box li{
+            position: relative;
+            top: 5px;
+        }
+    
+        .Ingredients-box p{
+            font-size: 17px;
+            width: 300px;
+            margin: -13px 0 0 80px;
+        }
+    
+        .instructions-box h1{
+            margin-left: 135px;
+            font-size: 40px;
+        }
+    
+        .instructions-box ul{
+            margin-left: 80px;
+        }
+    
+        .instructions-box li{
+            margin: 20px 0 0 80px;
+            font-weight: 800;
+        }
+    
+        .instructions-box p{
+            width: 63%;
+            font-size: 19px;
+        line-height: 30px;
+        margin-left: 20px;
+        }
+    
+        .instructions-box span{
+            
+            font-size: 20px;
+            font-weight: 600;
+        }
+    
+        .Nutrition-box h1{
+            margin-left: 135px;
+            font-size: 40px;
+        }
+    
+        .Nutrition-box p{
+            margin-left: 135px;
+            width: 50%;
+            font-size: 19px;
+            line-height: 30px;
+        }
+    
+        .Nutrition-table
+     {
+        margin: 20px 0 0 180px;
+      
+     }
+    
+     .Nutrition-table .data{
+        font-size: 19px;
+     }
+    
+     .Nutrition-box .data1
+     {
+        position: relative;
+        left: -120px;
+        font-weight: 800;
+     }
+        
+     
+ }
+
+ @media screen and (min-width: 370px) and (max-width: 450px) {
+
+    html, body
+    {
+overflow-x: hidden;
+    }
+
+    .omelette-img
+    {
+        width: 70%;
+        margin: -128px 0 0 -10px;
+    }
+
+    .omelette-heading
+    {
+
+        margin-left: 150px;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .omelette-heading span{
+        position: relative;
+        top: 45px;
+        right: 373px;
+        font-size: 50px;
+    }
+
+    .omelette-para
+    {
+        font-size: 23px;
+        width: 60%;
+        margin: 90px 0 0 145px;
+        line-height: 40px;
+    }
+
+    .Preparation-box h3{
+        margin-left: 145px;
+        font-size: 30px;
+    }
+
+    .Preparation-box ul{
+        margin-left: 115px;
+    }
+
+    .Preparation-box h6{
+        font-size: 20px;
+    }
+
+    .Preparation-box .Approximately{
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 130px;
+    }
+
+    .Preparation-box .minute
+    {
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 195px;
+    }
+
+    .Preparation-box .minutes
+    {
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 165px;
+    }
+
+    .Ingredients-box h1{
+        margin-left: 150px;
+        font-size: 40px;
+    }
+
+    .Ingredients-box ul{
+        margin-left: 110px;
+    }
+
+    .Ingredients-box li{
+        position: relative;
+        top: 5px;
+    }
+
+    .Ingredients-box p{
+        font-size: 19px;
+        width: 300px;
+    }
+
+    .instructions-box h1{
+        margin-left: 150px;
+        font-size: 40px;
+    }
+
+    .instructions-box ul{
+        margin-left: 80px;
+    }
+
+    .instructions-box li{
+        margin: 20px 0 0 100px;
+        font-weight: 800;
+    }
+
+    .instructions-box p{
+        width: 65%;
+        font-size: 19px;
+    line-height: 30px;
+    margin-left: 20px;
+    }
+
+    .instructions-box span{
+        
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .Nutrition-box h1{
+        margin-left: 150px;
+        font-size: 40px;
+    }
+
+    .Nutrition-box p{
+        margin-left: 150px;
+        width: 50%;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .Nutrition-table
+ {
+    margin: 20px 0 0 180px;
+  
+ }
+
+ .Nutrition-table .data{
+    font-size: 19px;
+ }
+
+ .Nutrition-box .data1
+ {
+    position: relative;
+    left: -120px;
+    font-weight: 800;
+ }
+    
+ }
+
+ @media screen and (min-width: 451px) and (max-width: 500px) {
+
+    .omelette-img
+    {
+        width: 95%;
+        margin: -128px 0 0 20px;
+    }
+
+    .omelette-heading
+    {
+        margin-left: 80px;
+        font-size: 40px;
+    }
+
+    .omelette-heading span{
+        
+        font-size: 40px;
+    }
+
+    .omelette-para
+    {
+        font-size: 19px;
+        width: 78%;
+        margin-left: 80px;
+        line-height: 30px;
+    }
+
+    .Preparation-box h3{
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
+    .Preparation-box ul{
+        margin-left: 80px;
+    }
+
+    .Preparation-box h6{
+        font-size: 20px;
+    }
+
+    .Preparation-box .Approximately{
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 130px;
+    }
+
+    .Preparation-box .minute
+    {
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 195px;
+    }
+
+    .Preparation-box .minutes
+    {
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 165px;
+    }
+
+    .Ingredients-box h1{
+        margin-left: 80px;
+        font-size: 40px;
+    }
+
+    .Ingredients-box ul{
+        margin-left: 40px;
+    }
+
+    .Ingredients-box li{
+        position: relative;
+        top: 5px;
+    }
+
+    .Ingredients-box p{
+        font-size: 19px;
+        width: 300px;
+    }
+
+    .instructions-box h1{
+        margin-left: 80px;
+        font-size: 40px;
+    }
+
+    .instructions-box ul{
+        margin-left: 30px;
+    }
+
+    .instructions-box li{
+        margin: 20px 0 0 80px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .instructions-box p{
+        width: 85%;
+        font-size: 19px;
+    line-height: 30px;
+    margin-left: 20px;
+    }
+
+    .instructions-box span{
+        
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .Nutrition-box h1{
+        margin-left: 80px;
+        font-size: 40px;
+    }
+
+    .Nutrition-box p{
+        margin-left: 80px;
+        width: 70%;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .Nutrition-table
+ {
+    margin: 20px 0 0 80px;
+  
+ }
+
+ .Nutrition-box .data1
+ {
+    position: relative;
+    left: -120px;
+    font-weight: 800;
+ }
+
+
+ }
+
+ @media screen and (min-width: 501px) and (max-width: 599px) {
+
+    .omelette-img
+    {
+        width: 100%;
+        margin: -128px 0 0 -20px;
+    }
+
+    .omelette-heading
+    {
+        margin-left: 50px;
+        font-size: 45px;
+    }
+
+    .omelette-heading span{
+        
+        font-size: 45px;
+    }
+
+    .omelette-para
+    {
+        font-size: 19px;
+        width: 89%;
+        margin-left: 50px;
+        line-height: 30px;
+    }
+
+    .Preparation-box h3{
+        margin-left: 70px;
+        font-size: 30px;
+    }
+
+    .Preparation-box ul{
+        margin-left: 40px;
+    }
+
+    .Preparation-box h6{
+        font-size: 20px;
+    }
+
+    .Preparation-box .Approximately{
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 130px;
+    }
+
+    .Preparation-box .minute
+    {
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 195px;
+    }
+
+    .Preparation-box .minutes
+    {
+        font-size: 19px;
+        width: 50%;
+        margin: -22px 0 0 165px;
+    }
+
+    .Ingredients-box h1{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .Ingredients-box ul{
+        margin-left: 10px;
+    }
+
+    .Ingredients-box li{
+        position: relative;
+        top: 5px;
+    }
+
+    .Ingredients-box p{
+        font-size: 19px;
+        width: 300px;
+    }
+
+    .instructions-box h1{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .instructions-box ul{
+        margin-left: 50px;
+    }
+
+    .instructions-box li{
+        margin: 20px 0 0 40px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .instructions-box p{
+        width: 85%;
+        font-size: 19px;
+    line-height: 30px;
+    margin-left: 20px;
+    }
+
+    .instructions-box span{
+        
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .Nutrition-box h1{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .Nutrition-box p{
+        margin-left: 50px;
+        width: 70%;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .Nutrition-table
+ {
+    margin: 20px 0 0 50px;
+  
+ }
+
+ .Nutrition-box .data1
+ {
+    position: relative;
+    left: -50px;
+    font-weight: 800;
+ }
+
+
+ }
+
