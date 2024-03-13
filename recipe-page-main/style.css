@@ -321,7 +321,7 @@ overflow-x: hidden;
             font-size: 20px;
             width: 55%;
             margin: 90px 0 0 135px;
-            line-height: 40px;
+            line-height: 30px;
         }
     
         .Preparation-box h3{
@@ -454,15 +454,15 @@ overflow-x: hidden;
     {
 
         margin-left: 150px;
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 800;
     }
 
     .omelette-heading span{
         position: relative;
         top: 45px;
-        right: 373px;
-        font-size: 50px;
+        right: 335px;
+        font-size: 45px;
     }
 
     .omelette-para
