@@ -305,7 +305,7 @@ overflow-x: hidden;
         {
     
             margin-left: 135px;
-            font-size: 40px;
+            font-size: 35px;
             font-weight: 800;
         }
     
@@ -360,7 +360,7 @@ overflow-x: hidden;
     
         .Ingredients-box h1{
             margin-left: 135px;
-            font-size: 40px;
+            font-size: 35px;
         }
     
         .Ingredients-box ul{
@@ -380,7 +380,7 @@ overflow-x: hidden;
     
         .instructions-box h1{
             margin-left: 135px;
-            font-size: 40px;
+            font-size: 35px;
         }
     
         .instructions-box ul{
@@ -407,7 +407,7 @@ overflow-x: hidden;
     
         .Nutrition-box h1{
             margin-left: 135px;
-            font-size: 40px;
+            font-size: 35px;
         }
     
         .Nutrition-box p{
@@ -454,15 +454,15 @@ overflow-x: hidden;
     {
 
         margin-left: 150px;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 800;
     }
 
     .omelette-heading span{
         position: relative;
         top: 45px;
-        right: 335px;
-        font-size: 45px;
+        right: 340px;
+        font-size: 40px;
     }
 
     .omelette-para
